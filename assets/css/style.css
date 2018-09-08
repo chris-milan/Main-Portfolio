@@ -16,6 +16,11 @@ p {
   line-height: 2rem;
 }
 
+container{
+  text-align: center;
+}
+
+
 .sidenav-trigger {
   color: #26a69a;
 }
@@ -39,6 +44,10 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.friend-finder-img {
+  bottom: 2%
 }
 
 /*
@@ -88,9 +97,8 @@ footer.page-footer {
     
 }
 
-container{
-    text-align: center;
-}
+
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
