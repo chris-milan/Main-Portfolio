@@ -31,7 +31,8 @@ container{
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
+
+.parallax-container .section {
     width: 100%;
   }
 
@@ -50,28 +51,6 @@ footer.page-footer {
   bottom: 2%
 }
 
-/*
-#mainPic1 {
- background: transparent;
-   height: 200px;
-    width: fixed%;
-    
-}
-
-#mainPic2 {
-    margin-bottom: 325px;
-    background: transparent;
-    width: fixed%; 
-}
-    
-
-#mainPic3 {
-    margin-bottom: 500px;
- background: transparent;
-    width: fixed%; 
-}
-*/
-
 .about-text {
     font-size: 30px;
     color: white;
@@ -82,7 +61,7 @@ footer.page-footer {
 }
 
 #icon {
-    
+
     color: gold;
     text-shadow: 1px 1px 1px #ccc;
     letter-spacing: 150px;
@@ -94,7 +73,11 @@ footer.page-footer {
 
 .work-text{
     color:white;
-    
+
+}
+
+.le-burger-img {
+top: 500px;
 }
 
 
