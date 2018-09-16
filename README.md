@@ -1,3 +1,3 @@
-# Main-Portfolio
+# Main Portfolio
 
-A website containing my Main Portfolio.
+A website containing my [Portfolio.](https://chris-milan.github.io/Main-Portfolio/)
