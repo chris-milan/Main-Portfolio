@@ -22,8 +22,10 @@ container{
 
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: gold;
 }
+
+
 
 .parallax-container {
   min-height: 480px;
@@ -33,7 +35,7 @@ container{
 }
 
 .parallax-container .section {
-    width: 100%;
+    width: 90%;
   }
 
 .icon-block {
@@ -78,6 +80,50 @@ footer.page-footer {
 
 .le-burger-img {
 top: 500px;
+}
+
+
+
+@media only screen and (max-width : 480px) {
+  body {
+   padding: 5px;
+  }
+
+  .navbar-fixed {
+    position: fixed;
+  }
+
+  .parallax-container {
+    min-height: 240px;
+    min-width: 375;
+ 
+    line-height: 0;
+    height: auto;
+    width: auto;
+    color: rgba(255,255,255,.9);
+    padding: 10px;
+  }
+
+  .contact-links {
+    margin-left: 90px;
+  }
+
+    img {
+   width: 100%;
+    height: auto;
+
+  }
+  #mainPic1, #mainPic3 {
+    display: none
+  }
+  .fas fa-link fa-2x {
+    size: 10px;
+  }
+  i {
+    size: 10%;
+  }
+
+
 }
 
 
