@@ -20,12 +20,9 @@ container{
   text-align: center;
 }
 
-
 .sidenav-trigger {
   color: gold;
 }
-
-
 
 .parallax-container {
   min-height: 480px;
@@ -47,10 +44,6 @@ container{
 
 footer.page-footer {
   margin: 0;
-}
-
-.friend-finder-img {
-  bottom: 2%
 }
 
 .about-text {
@@ -75,15 +68,21 @@ footer.page-footer {
 
 .work-text{
     color:white;
+}
 
+.friend-finder-img {
+  bottom: 2%
 }
 
 .le-burger-img {
-top: 500px;
+  top: 500px;
 }
 
+.spumco-img {
+  bottom: -50%
+}
 
-
+/* Media Queries */
 @media only screen and (max-width : 480px) {
   body {
    padding: 5px;
@@ -96,7 +95,7 @@ top: 500px;
   .parallax-container {
     min-height: 240px;
     min-width: 375;
- 
+
     line-height: 0;
     height: auto;
     width: auto;
@@ -123,10 +122,7 @@ top: 500px;
     size: 10%;
   }
 
-
 }
-
-
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
